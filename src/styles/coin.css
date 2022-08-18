@@ -48,19 +48,10 @@
 .col-12 {width: 8.33%;}
 
 
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-.col-6,
-.col-7, 
-.col-8, 
-.col-9,
-.col-10,
-.col-11,
-.col-12,
-.col-13,
-.col-14 {
+.col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-13, .col-14 {
   display: none;
 }
 
@@ -78,19 +69,16 @@
   font-size: 18px;
   font-weight: bolder;
 }
+
 .search-textbox {
   width: 100%;
 }
 }
 
+/* For small screens */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-/* Column classes for small screens (600px and up) */
-  .col-7, 
-  .col-8, 
-  .col-9,
-  .col-10,
-  .col-11,
-  .col-12 {
+
+  .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
     display: none;
   }
   
@@ -103,23 +91,20 @@
     font-size: 20px;
     font-weight: bolder;
   }
+
   .search-textbox {
     width: 100%;
   }
 }
 
+/* For medium screens */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
-/* Column classes for medium screens (768px and up) */
-  .col-8,
-  .col-9,
-  .col-10,
-  .col-11,
-  .col-12 {
+  .col-8,.col-9, .col-10, .col-11, .col-12 {
     display: none;
   }
   
   .col-1, .col-2, .col-3, .col-4,.col-5, .col-6, .col-7 {
-    font-size: 21px;
+    font-size: 20px;
     font-weight: bolder;
   }
   
@@ -133,23 +118,20 @@
   }
 }
 
+/* For large screens */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-/* Columns for large screens (992px and up) */
-  .col-8,
-  .col-9,
-  .col-10,
-  .col-11,
-  .col-12 {
+  
+  .col-8, .col-9, .col-10, .col-11, .col-12 {
     display: none;
   }
   
   .col-1, .col-2, .col-3, .col-4,.col-5, .col-6, .col-7 {
-    font-size: 18px;
+    font-size: 21px;
     font-weight: bolder;
   }
   
   .search-header {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bolder;
   }
 
@@ -158,8 +140,83 @@
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* Extra large screens */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
 
+  .col-9, .col-10, .col-11, .col-12 {
+    display: none;
+  }
 
+  .col-1, .col-2, .col-3, .col-4,.col-5, .col-6, .col-7, .col-8 {
+    font-size: 19px;
+    font-weight: bolder;
+  }
+
+  .search-header {
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+  .search-textbox {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+
+   .col-11, .col-12 {
+    display: none;
+  }
+
+  .col-1, .col-2, .col-3, .col-4,.col-5, .col-6, .col-7, .col-8, .col-9, .col-10 {
+    font-size: 17px;
+    font-weight: bolder;
+  }
+
+  .search-header {
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+  .search-textbox {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1870px) {
+
+  .col-12 {
+   display: none;
+ }
+
+ .col-1, .col-2, .col-3, .col-4,.col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11 {
+   font-size: 18px;
+   font-weight: bolder;
+ }
+
+ .search-header {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.search-textbox {
+  width: 100%;
+}
+}
+
+@media only screen and (min-width: 1871px) {
+
+ .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+   font-size: 19px;
+   font-weight: bolder;
+ }
+
+ .search-header {
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.search-textbox {
+  width: 100%;
+}
 }

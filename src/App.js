@@ -3,8 +3,6 @@ import axios from 'axios';
 import Coin from './Coin';
 import './styles/app.css'
 
-
-
 function App() {
   const [coins, setCoins] = useState([]);
   const [search, setSearch] = useState('');
